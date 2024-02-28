@@ -68,6 +68,16 @@ header {
   margin: 8px 16px 8px 0;
 }
 
+aside {
+  width: 224px;
+  float: right;
+  text-align: center;
+  border-radius: 8px;
+  margin: 8px 0 8px 16px;
+  border: 1px dashed grey;
+  padding: 8px 16px 32px 16px;
+}
+
 .secção-de-lista-de-artigos-horizontal {
 }
 
