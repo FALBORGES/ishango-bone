@@ -32,6 +32,12 @@ a:hover {
   color: darkblue;
 }
 
+main {
+  width: 1126px;
+  margin: 0 auto;
+  padding: 16px 0 0 0;
+}
+
 .secção-artigos-principais {
 }
 
