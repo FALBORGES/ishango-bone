@@ -43,6 +43,11 @@ nav {
   margin: 0 0 16px 0;
 }
 
+nav a {
+  font-weight: 600;
+  margin: 0 16px 0 0;
+}
+
 .secção-artigos-principais {
 }
 
