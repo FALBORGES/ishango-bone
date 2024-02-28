@@ -6,6 +6,7 @@ body {
   padding: 0 80px 8px 80px;
   background-color: white;
 }
+
 h1,
 h2,
 h3,
@@ -19,6 +20,12 @@ h4 {
 p {
   margin: 0 0 16px 0;
   text-align: left;
+}
+
+a {
+  font-weight: 500;
+  color: #000000ee;
+  text-decoration: none;
 }
 
 .secção-artigos-principais {
