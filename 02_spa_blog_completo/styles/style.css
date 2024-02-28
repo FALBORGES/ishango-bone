@@ -38,6 +38,11 @@ main {
   padding: 16px 0 0 0;
 }
 
+nav {
+  text-align: right;
+  margin: 0 0 16px 0;
+}
+
 .secção-artigos-principais {
 }
 
