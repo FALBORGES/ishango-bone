@@ -84,6 +84,9 @@ aside ul {
   list-style-type: none;
 }
 
+aside h3 {
+  text-align: center;
+}
 .secção-de-lista-de-artigos-horizontal {
 }
 
