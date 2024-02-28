@@ -102,5 +102,10 @@ aside h3 {
   display: inline-block;
 }
 
+.secção-de-lista-de-artigos-horizontal p,
+.secção-de-lista-de-artigos-horizontal h2 {
+  text-align: center;
+}
+
 .secção-de-artigo-final {
 }
