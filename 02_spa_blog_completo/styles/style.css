@@ -61,10 +61,11 @@ header {
   width: 100%;
   margin: 0 0 80px 0;
 }
-.secção-artigos-principais {
-}
 
 .coluna-da-esquerda-da-secção-artigos-principais {
+  max-width: 820px;
+  display: inline-block;
+  margin: 8px 16px 8px 0;
 }
 
 .secção-de-lista-de-artigos-horizontal {
