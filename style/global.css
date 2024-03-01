@@ -5,15 +5,26 @@
 
     main {
       max-width: 1280px;
-      padding: 80px 160px;
+      padding: 80px 24px;
     }
 
     .homepage-header-text {
+      text-align: center;
+      margin: 0 0 80px 0;
+    }
+    
+    .homepage-header-text h1 {
+      font-size: 1.15rem;
+      display: inline-block;
+    }
+
+    .homepage-header-text p {
+      font-size: 0.7rem;
       display: inline-block;
     }
 
     .not-found-easter-egg {
-      font-size: 40px;
+      font-size: 5rem;
       padding: 320px 0;
       text-align: center;
     }
