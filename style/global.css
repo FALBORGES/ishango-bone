@@ -1,0 +1,19 @@
+ body {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      max-width: 1280px;
+      padding: 80px 160px;
+    }
+
+    .homepage-header-text {
+      display: inline-block;
+    }
+
+    .not-found-easter-egg {
+      font-size: 40px;
+      padding: 320px 0;
+      text-align: center;
+    }
