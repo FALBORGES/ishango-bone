@@ -1,22 +1,39 @@
-body {
-  padding: 0;
-  margin: 0 auto;
-}
-
-.evenly-photos-wall {
-  padding: 8px;
-  margin: 0 auto;
-}
-
-.evenly-photos-wall div {
-  margin: 0 auto;
-  width: fit-content;
+.mural-uniforme {
   text-align: center;
+  background-color: white;
+  margin: 0 0 80px 0;
 }
 
-.evenly-photos-wall img {
-  width: 232px;
-  height: 320px;
-  padding: 8px 8px 32px 8px;
-  background-color: rgb(238, 238, 238);
+.mural-uniforme img {
+  padding: 8px 8px 24px 8px;
+  background-color: cornflowerblue;
+}
+
+.mural-não-uniforme {
+  text-align: center;
+  margin: 0 0 80px 0;
+}
+
+.mural-não-uniforme img:nth-child(odd) {
+  width: 200px;
+  height: 250px;
+  background-color: black;
+  padding: 8px 8px 24px 8px;
+}
+
+.mural-não-uniforme img:nth-child(even) {
+  padding: 8px 8px 24px 8px;
+  background-color: aqua;
+}
+
+.terceira {
+  text-align: center;
+  margin: 100px;
+  background-color: aqua;
+}
+
+.terceira img:nth-last-child(even) {
+  padding: 0 8px 24px 0;
+  width: 400ox;
+  background-color: brown;
 }
