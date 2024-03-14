@@ -1,0 +1,39 @@
+.mural-uniforme {
+  text-align: center;
+  background-color: white;
+  margin: 0 0 80px 0;
+}
+
+.mural-uniforme img {
+  padding: 8px 8px 24px 8px;
+  background-color: cornflowerblue;
+}
+
+.mural-não-uniforme {
+  text-align: center;
+  margin: 0 0 80px 0;
+}
+
+.mural-não-uniforme img:nth-child(odd) {
+  width: 200px;
+  height: 250px;
+  background-color: black;
+  padding: 8px 8px 24px 8px;
+}
+
+.mural-não-uniforme img:nth-child(even) {
+  padding: 8px 8px 24px 8px;
+  background-color: aqua;
+}
+
+.terceira {
+  text-align: center;
+  margin: 100px;
+  background-color: aqua;
+}
+
+.terceira img:nth-last-child(even) {
+  padding: 0 8px 24px 0;
+  width: 400ox;
+  background-color: brown;
+}
