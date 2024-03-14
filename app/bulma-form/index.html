@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário - TrybeTravel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body class="p-3">
+    <div class="content">
+      <h1 id="title" class="has-text-centered has-text-primary">
+        Formulário Trybe Travel
+      </h1>
+    </div>
+
+    <form id="main-form">
+      <fieldset>
+        <div class="contro my-4">
+          <label for="fullName">Nome Completo:</label>
+
+          <input
+            class="input is-primary type= input is-rounded"
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Digite seu nome completo"
+            maxlength="40"
+            minlength="10"
+            required
+          />
+        </div>
+
+        <div class="control my-4">
+          <label for="email" class="form-label">Endereço de E-mail:</label>
+
+          <input
+            class="input is-primary type= input is-rounded"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            maxlength="50"
+            minlength="10"
+            required
+          />
+        </div>
+
+        <div class="control">
+          <input
+            type="radio"
+            id="destination1"
+            className="radios"
+            name="destinations"
+            value="Cidade"
+            required
+          />
+          <label for="destination1">Cidade</label>
+        </div>
+
+        <div class="control">
+          <input
+            type="radio"
+            id="destination2"
+            className="radios"
+            name="destinations"
+            value="Campo"
+            required
+          />
+          <label for="destination2">Campo</label>
+        </div>
+
+        <div class="control">
+          <input
+            type="radio"
+            id="destination3"
+            className="radios"
+            name="destinations"
+            value="Praia"
+            required
+          />
+          <label for="destination3">Praia</label>
+        </div>
+
+        <div class="control">
+          <input
+            type="radio"
+            id="destination4"
+            className="radios"
+            name="destinations"
+            value="Montanhas"
+            required
+          />
+          <label for="destination4">Montanhas</label>
+        </div>
+
+        <div class="control my-4">
+          <label for="question">
+            Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+            TrybeTravel
+          </label>
+
+          <textarea
+            class="textarea is-success"
+            name="why"
+            id="question"
+            cols="60"
+            rows="10"
+            placeholder="Digite sua resposta vencedora aqui"
+            maxlength="500"
+          >
+          </textarea>
+        </div>
+
+        <div class="my-2">
+          <label for="date">Qual a melhor data para realizar sua viagem?</label>
+          <input
+            type="date"
+            id="date"
+            class="input is-primary type= input is-rounded"
+          />
+        </div>
+
+        <div class="my-2">
+          <input type="checkbox" name="promo" id="promo" />
+          <label for="promo"
+            >Gostaria de receber outras incríveis oportunidades oferecidas pela
+            Trybe.
+          </label>
+
+          <br />
+        </div>
+
+        <div>
+          <input type="checkbox" name="agreement" id="agreement" required />
+          <label for="agreement"
+            >Concordo que imagens de minhas férias poderão ser usadas na
+            divulgação de concursos futuros.
+          </label>
+        </div>
+      </fieldset>
+      <div class="has-text-right">
+        <button
+          type="submit"
+          id="submit-btn"
+          disabled
+          class="button is-primary is-outlined is-pulled-right ml-3"
+        >
+          Enviar
+        </button>
+        <button type="reset" id="clear-btn" class="button is-danger is-active">
+          Limpar
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
